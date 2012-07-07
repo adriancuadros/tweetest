@@ -1,0 +1,13 @@
+== Tweet Contest for Innsights
+
+* Git clone https://www.github.com/innku/innsights-gem into a local folder
+* Git clone this repo
+* Add to Gemfile
+  
+  gem 'innsights', :path => '~/local/innsights-gem/folder'
+  
+* Run rails generator anf overwrite innsights.yml but DO NOT overwrite innsights.rb
+  rails generate innsights:install
+  
+* rake populate
+
