@@ -1,4 +1,4 @@
 class Tweet < ActiveRecord::Base
   belongs_to :dude
-  attr_accessible :body, :created_at
+  attr_accessible :body, :created_at, :twitter_id
 end

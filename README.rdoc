@@ -11,3 +11,4 @@
   
 * rake populate
 
+Error messages are due to local server overload. Don't worry, things that fail are retried.

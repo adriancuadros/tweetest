@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(:version => 20120704162537) do
 
   create_table "mentions", :force => true do |t|
     t.string   "body"
+    t.string   "twitter_id"
     t.integer  "dude_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
@@ -35,6 +36,7 @@ ActiveRecord::Schema.define(:version => 20120704162537) do
 
   create_table "tweets", :force => true do |t|
     t.string   "body"
+    t.string   "twitter_id"
     t.integer  "dude_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
