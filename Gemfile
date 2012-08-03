@@ -24,7 +24,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem 'innsights', :git =>'https://github.com/innku/innsights-gem.git', :branch => 'stable-0.1', :require => 'innsights'
+gem 'innsights', :github => 'innku/innsights-gem', :branch => 'stable-0.1'
 gem 'twitter'
 
 # To use ActiveModel has_secure_password
