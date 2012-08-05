@@ -10,7 +10,7 @@ task :populate => :environment do
       tweets = Twitter.user_timeline(dude.username, :count => 200)
       begin
         tweets.each do |tweet|
-          tweet_params = [tweet.id, {:body => tweet.text, :created_at => tweet.created_at}]
+          tweet_params = [tweet.id.to_s, {:body => tweet.text, :created_at => tweet.created_at}]
           resource = tweet.in_reply_to_status_id ? :mentions : :tweets
           dude.send(resource).find_or_create_by_twitter_id *tweet_params
         end
