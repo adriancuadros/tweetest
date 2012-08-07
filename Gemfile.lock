@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/innku/innsights-gem.git
-  revision: d4fc9b5785e3763dd1bec5cd5776e0bac48f1424
+  revision: 7a03f772020879d0fc4ff9d2ced58395d53cbac0
   branch: stable-0.1
   specs:
     innsights (0.1.0)

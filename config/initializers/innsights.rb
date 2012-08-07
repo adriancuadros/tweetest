@@ -20,9 +20,5 @@ Innsights.setup do
     upon   :create
     user   :dude
   end
-  
-  # config do
-  #   test true
-  # end
     
 end
